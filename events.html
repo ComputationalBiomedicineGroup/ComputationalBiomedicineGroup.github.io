@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events — Finotello Lab</title>
+<link rel="canonical" href="https://finotellolab.org/events.html">
+<meta name="description" content="Bioinformatics Club journal club: upcoming and past sessions.">
+<meta name="author" content="Francesca Finotello">
+<meta property="og:title" content="Events — Finotello Lab">
+<meta property="og:description" content="Bioinformatics Club journal club: upcoming and past sessions.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://finotellolab.org/events.html">
+<meta property="og:image" content="https://finotellolab.org/images/finotello-lab_logo_col.png">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<style>
+  /* Note-style callout (not a code block) */
+  .evt-callout{
+    display:flex;
+    align-items:center;
+    gap:.75rem;
+    margin:1.2rem 0 1.6rem;
+    padding:1rem 1.25rem;
+    background:var(--footer-bg);
+    border:1px solid #e2e2ec;
+    border-radius:10px;
+    box-shadow:0 1px 3px rgba(26,26,46,.06);
+    color:var(--ink);
+  }
+  .evt-callout .evt-callout-icon{
+    flex:0 0 auto;
+    width:22px;height:22px;
+    color:var(--indigo);
+  }
+  .evt-callout p{
+    margin:0;
+    font-family:var(--font-body);
+    font-size:1.05rem;
+    line-height:1.5;
+    color:var(--text);
+  }
+
+  /* Past / Upcoming headings: bold display face (MSCHN XL) */
+  .evt-group{
+    font-family:var(--font-display-xl);
+    font-weight:700;
+  }
+
+  /* "Past" heading: extra space above, tighter below */
+  .evt-group.evt-past{
+    margin-top:3rem;
+    margin-bottom:.1rem;
+  }
+
+  /* Event dates: regular display face (MSCHN S), still bold weight */
+  .event .evt-date{
+    font-family:var(--font-display);
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Finotello Lab home">
+      <img src="images/finotello-lab_header-logo.svg" alt="Finotello Lab" height="34">
+    </a>
+    <button class="menu-btn" id="menuOpen" aria-expanded="false" aria-controls="navOverlay">
+      <span class="txt">Menu</span><span class="ic" aria-hidden="true"><i></i><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+<nav class="overlay" id="navOverlay" aria-label="Main menu" aria-hidden="true">
+  <button class="close" id="menuClose">Menu <span aria-hidden="true">&times;</span><span class="visually-hidden"> close</span></button>
+  <a href="team.html">Team</a>
+  <a href="projects.html">Projects</a>
+  <a href="publications.html">Publications</a>
+  <a href="software.html">Software</a>
+  <a href="teaching.html">Teaching</a>
+  <a href="events.html" aria-current="page">Events</a>
+  <a href="funding.html">Funding</a>
+</nav>
+<noscript>
+  <nav class="nav-fallback" aria-label="Main menu (no-JavaScript fallback)">
+    <ul>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="software.html">Software</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+      <li><a href="events.html" aria-current="page">Events</a></li>
+      <li><a href="funding.html">Funding</a></li>
+    </ul>
+  </nav>
+</noscript>
+<main id="main">
+  <section class="pagehead"><div class="wrap"><h1>Events</h1></div></section>
+  <section class="section"><div class="wrap">
+    <h2>Bioinformatics Club</h2>
+
+    <h3 class="evt-group">Upcoming</h3>
+
+    <div class="evt-callout" role="note">
+      <svg class="evt-callout-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 5a1.25 1.25 0 1 1 0 2.5A1.25 1.25 0 0 1 12 7zm1.25 10.5h-2.5v-6.5h2.5v6.5z"/></svg>
+      <p>The Bioinformatics Club will resume after the summer break!</p>
+    </div>
+
+    <h3 class="evt-group evt-past">Past</h3>
+      <div class="eventlist reveal-cascade">
+        <div class="event">
+          <p class="evt-date">December 18, 2025 - 2:00 p.m.</p>
+          <ul>
+            <li>Irene Rigato: <a href="https://doi.org/10.1101/2024.03.01.582887"><strong>Scvi-hub: an actionable repository for model-driven single cell analysis</strong></a> [Journal Club]</li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">November 20, 2025 - 2:00 p.m.</p>
+          <ul>
+            <li>Lorenzo Merotto: <a href="https://www.nature.com/articles/s41467-022-34550-9"><strong>Deep autoencoder for interpretable tissue-adaptive deconvolution and cell-type-specific gene analysis</strong></a> [Journal Club]</li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">October 9, 2025 - 2:00 p.m.</p>
+          <ul>
+            <li>Felix Petschko: <a href="https://www.nature.com/articles/s41592-025-02707-1"><strong>A visual&ndash;omics foundation model to bridge histopathology with spatial transcriptomics</strong></a> [Journal Club]</li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">February 13, 2025 - 11:00 a.m.</p>
+          <ul>
+            <li>Irene Rigato: <a href="https://www.nature.com/articles/s41467-024-55213-x"><strong>Alleviating batch effects in cell type deconvolution with SCCAF-D</strong></a> [Journal Club]</li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">December 3, 2024 - 11:00 a.m.</p>
+          <ul>
+            <li>Sophie Gr&uuml;ner: <strong>Exploring lineage composition in human cerebral organoids with scRNA-Seq</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">November 5, 2024 - 2:00 p.m.</p>
+          <ul>
+            <li>Marcel Tisch: <strong>Characterization of earliest neuroepithelial progenitor cell lines derived from human embryonic brain tissue</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">May 10, 2023 - 11:30 a.m.</p>
+          <ul>
+            <li>Bernhard Eder: <strong>Challenges and best practices in scientific software development</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">April 26, 2023 - 10:30 a.m.</p>
+          <ul>
+            <li>Marcel Tisch: <strong>The ChatGPT revolution: chat your way to better science</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">February 21, 2023 - 11:00 a.m.</p>
+          <ul>
+            <li>Manuel Fiegl: <strong>Unconventional workarounds when working with unconventional animal models: tracing molecular mechanisms in cardiac regeneration in Zebrafish</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">February 1, 2023 - 10:30 a.m.</p>
+          <ul>
+            <li>Julianne Beirute-Herrera: <strong>Generation and demultiplexing of gene-cell count matrices from a 10x scRNA-seq experiment</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">November 8, 2022 - 11:00 a.m.</p>
+          <ul>
+            <li>Constantin Zackl and Maria Zopoglou: <strong>Characterization of the cellular composition of tumors using spatial transcriptomics</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">September 6, 2022 - 11:00 a.m.</p>
+          <ul>
+            <li>Jerome Mertens, Christopher Esk, Oliver Borgogno, and Lisa Fellner: <strong>Aging Clocks</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">July 26, 2022 - 11:00 a.m.</p>
+          <ul>
+            <li>Lorenzo Merotto: <a href="https://www.nature.com/articles/s41592-021-01336-8"><strong>Benchmarking atlas-level data integration in single-cell genomics</strong></a> (Journal Club)</li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">June 7, 2022 - 11:00 a.m.</p>
+          <ul>
+            <li>Manuel Fiegl: <strong>Molecular genetic role of innate immune system mediated TLR3 signalling in zebrafish cardiac infraction regeneration</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">May 3, 2022 - 11:00 a.m.</p>
+          <ul>
+            <li>Martina Podlesnic: <strong>Single-cell RNA seq analysis of induced neural stem cells</strong></li>
+            <li>Angeliki Spathopoulou: <strong>Regional identity of induced neural stem cells derived from direct conversion</strong></li>
+          </ul>
+        </div>
+        <div class="event">
+          <p class="evt-date">March 1, 2022 - 11:00 a.m.</p>
+          <ul>
+            <li>Marcel Tisch: <a href="https://www.nature.com/articles/s41587-021-01001-7"><strong>Mapping single-cell data to reference atlases by transfer learning</strong></a> [Journal Club]</li>
+            <li>Marcel Tisch: <strong>Characterization of human fetal-derived early neural progenitors cells through single-cell transcriptome analysis</strong></li>
+            <li>Sarah Berger: <strong>Mnx1-mutant zebrafish as a Diabetes Type I model to study long-term effects of hyperglycemia on islet-architecture</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </div></section>
+</main>
+<footer class="site">
+  <div class="wrap foot-grid">
+    <div>
+      <h2>Institute of Molecular Biology</h2>
+      University of Innsbruck<br>Technikerstraße 25, 6020 Innsbruck<br>Austria
+    </div>
+    <div>
+      <h2>Digital Science Center (DiSC)</h2>
+      University of Innsbruck<br>Innrain 15, 6020 Innsbruck<br>Austria
+    </div>
+    <div class="contact">
+      <h2>Contacts</h2>
+      <a href="tel:+43512507051480"><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .7-.2 1l-2.3 2.2z"/></svg><span>+43 (0) 512 507 51480</span></a>
+      <script type="text/javascript">
+        var user = "francesca.finotello";
+        var domain = "uibk.ac.at";
+        document.write('<a href="mailto:' + user + '@' + domain + '"><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 5h18c.6 0 1 .4 1 1v12c0 .6-.4 1-1 1H3c-.6 0-1-.4-1-1V6c0-.6.4-1 1-1zm9 7L4 6.7V18h16V6.7L12 12zM12 10l7-4.5H5L12 10z"/><\/svg><span>' + user + '@' + domain + '<\/span><\/a>');
+      </script>
+      <noscript>francesca.finotello [at] uibk.ac.at</noscript>
+    </div>
+    <div class="social">
+      <h2>Follow us</h2>
+      <a href="https://github.com/ComputationalBiomedicineGroup/"><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 6.6 2 12.2c0 4.5 2.9 8.3 6.8 9.6.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.4-3.4-1.4-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.3 9.3 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.3 4.7-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 22 12.2C22 6.6 17.5 2 12 2z"/></svg><span>Follow us on GitHub</span></a>
+      <a href="https://www.linkedin.com/in/francesca-finotello-4176b011b/"><svg class="fi" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM10 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.6 4.7 5.9V21h-4v-5.5c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21h-4z"/></svg><span>Follow Francesca on LinkedIn</span></a>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="wrap">
+      <span>&copy; <span id="yr"></span> Francesca Finotello. All rights reserved.</span>
+      <span><a href="impressum.html">Impressum</a> &nbsp;&middot;&nbsp; <a href="privacy.html">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+(function(){
+  var ov=document.getElementById('navOverlay'),o=document.getElementById('menuOpen'),c=document.getElementById('menuClose');
+  function open(){ov.classList.add('open');ov.setAttribute('aria-hidden','false');o.setAttribute('aria-expanded','true');c.focus();}
+  function close(){ov.classList.remove('open');ov.setAttribute('aria-hidden','true');o.setAttribute('aria-expanded','false');o.focus();}
+  o.addEventListener('click',open);c.addEventListener('click',close);
+  ov.addEventListener('click',function(e){if(e.target.tagName==='A')close();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&ov.classList.contains('open'))close();});
+})();
+
+var y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
+
+// Reveal-on-scroll: add .is-visible when elements enter the viewport
+(function(){
+  var els=document.querySelectorAll('.reveal-on-scroll, .reveal-cascade');
+  if(!els.length)return;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce||!('IntersectionObserver'in window)){els.forEach(function(el){el.classList.add('is-visible');});return;}
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});
+  },{threshold:0.12,rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(el){io.observe(el);});
+})();
+</script>
+</body>
+</html>
