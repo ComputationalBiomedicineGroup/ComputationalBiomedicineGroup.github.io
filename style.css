@@ -262,7 +262,8 @@ html{scroll-behavior:smooth}
 
 /* Teaching: course listings */
 .course-list{list-style:none;margin:1.2rem 0 0}
-.course{padding:6px 0 4px}
+.course{padding:0}
+.course + .course{margin-top:1.8rem;padding-top:1.8rem;border-top:1px solid #e8e8ef}
 .course-title{display:inline-block;font-weight:700;color:var(--ink);text-decoration:underline;text-underline-offset:2px;margin-bottom:.35rem}
 .course-affil{margin:.15rem 0 .5rem;color:var(--text)}
 .course-icons{list-style:none;margin:.2rem 0 .2rem;padding:0}
