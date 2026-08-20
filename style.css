@@ -100,7 +100,7 @@ html{scroll-behavior:smooth}
 .btn.light:hover,.btn.light:focus-visible{background:var(--white);color:var(--indigo)}
 .portrait{width:300px;height:300px;border-radius:50%;object-fit:cover;margin:0 auto;background:#e6e6ef}
 .portrait.blob{width:490px;height:508px;border-radius:0;
-  background-color:#f0eef2;background-repeat:no-repeat;background-position:40% 30%;background-size:202%;
+  background-color:#f0eef2;background-repeat:no-repeat;background-position:50% 30%;background-size:202%;
   -webkit-clip-path:url(#piBlobClip);clip-path:url(#piBlobClip)}
 .portrait-fig{margin:0;position:relative}
 .portrait-credit{position:absolute;top:50%;right:6px;
