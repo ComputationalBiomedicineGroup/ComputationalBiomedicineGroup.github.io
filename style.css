@@ -138,6 +138,23 @@ html{scroll-behavior:smooth}
 .section a.inline{color:var(--indigo);text-decoration:underline;text-underline-offset:2px}
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:40px}
 .two-col p{text-align:justify;hyphens:auto}
+
+/* Projects — callout blocks (requirements + how to apply) */
+.callout{background:#faf9ff;border:1px solid #e8e8ef;border-radius:14px;
+  padding:26px 30px;margin-top:1.4rem}
+.callout h3{margin:0 0 .8rem;font-size:1.2rem;font-weight:700;color:var(--ink)}
+.callout ul,.callout ol{margin:0;padding-left:1.4rem;line-height:1.7}
+.callout li{margin-bottom:.4rem;max-width:none}
+.callout li:last-child{margin-bottom:0}
+.callout p{margin:0 0 .6rem;max-width:none}
+.callout strong{color:var(--ink)}
+.callout-accent{background:var(--indigo);border-color:var(--indigo);color:var(--white)}
+.callout-accent h3,.callout-accent strong{color:var(--white)}
+.callout-accent a{color:var(--white);text-decoration:underline;text-underline-offset:2px}
+
+/* Projects page — single column fills the site container */
+.projects-full p{max-width:none;text-align:justify;hyphens:auto}
+.projects-full .callout{max-width:none}
 .band{background:var(--indigo-deep) url('images/noise_band.jpg') center/cover;color:var(--white);position:relative}
 .band::before{content:"";position:absolute;inset:0;background:rgba(31,16,120,.55)}
 .band .wrap{position:relative;z-index:1}
