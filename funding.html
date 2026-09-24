@@ -22,6 +22,14 @@
   .logos img{height:125px}
   /* Restore spacing lost with the removed heading */
   .logos{margin-top:2.8rem}
+  /* Make the UIBK logo smaller than the others */
+  .logos img.logo-uibk{height:70px}
+
+  /* On phones, keep the logos small */
+  @media (max-width:520px){
+    .logos img{height:48px}
+    .logos img.logo-uibk{height:28px}
+  }
 </style>
 </head>
 <body>
@@ -38,7 +46,7 @@
 </header>
 <nav class="overlay" id="navOverlay" aria-label="Main menu" aria-hidden="true">
   <button class="close" id="menuClose">Menu <span aria-hidden="true">&times;</span><span class="visually-hidden"> close</span></button>
-  <a href="team.html">Home</a>
+  <a href="index.html">Home</a>
   <a href="team.html">Team</a>
   <a href="projects.html">Projects</a>
   <a href="publications.html">Publications</a>
@@ -92,7 +100,7 @@
       <img src="images/costeu.png" alt="COST">
       <img src="images/aurora.png" alt="AURORA Universities Network">
       <img src="images/eu.jpg" alt="European Commission">
-      <img src="images/uibk.jpg" alt="University of Innsbruck">
+      <img class="logo-uibk" src="images/logo-uibk.svg" alt="University of Innsbruck">
     </div>
   </div></section>
 </main>
@@ -100,7 +108,7 @@
   <div class="wrap foot-grid">
     <div class="foot-logo">
       <a href="https://www.uibk.ac.at/en/" aria-label="University of Innsbruck">
-        <img src="images/uibk.jpg" alt="University of Innsbruck">
+        <img src="images/logo-uibk.svg" alt="University of Innsbruck">
       </a>
     </div>
     <div>
